@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sdk_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/sharePic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/test_sdk_lib"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:text="Hello World!"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <ListView
+                android:id="@+id/termList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="initSdk"
+                android:padding="5dp"
+                android:text="初始化SDK" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startMeet"
+                android:padding="5dp"
+                android:text="开始会议" />
+
+            <EditText
+                android:id="@+id/editConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="joinMeet"
+                android:padding="5dp"
+                android:text="加入会议" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startShareRGB"
+                android:padding="5dp"
+                android:text="开始共享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="stopShareRGB"
+                android:padding="5dp"
+                android:text="停止共享" />
+
+            <Button
+                android:id="@+id/openCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="打开相机" />
+
+            <Button
+                android:id="@+id/btnMute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="静音" />
+
+            <Button
+                android:id="@+id/btnAllMute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="全部静音" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="leaveMeet"
+                android:padding="5dp"
+                android:text="离开会议" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="endMeet"
+                android:padding="5dp"
+                android:text="结束会议" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="unInitSdk"
+                android:padding="5dp"
+                android:text="退出" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/onHand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="举手" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="changeName"
+                android:padding="5dp"
+                android:text="改名" />
+
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="外放模式" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="注册" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="登录" />
+            <Button
+                android:id="@+id/btnGetMeetingList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="会议列表" />
+            <Button
+                android:id="@+id/btnHasPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="是否有密码" />
+
+            <Button
+                android:id="@+id/meetDetailInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="获取会议详情" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

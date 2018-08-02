@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_e1a430d02c34477324fa6dfa089bbfdde730f0c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1f450a72224490ae3bf7c0902e4cb45d4feeae8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/gson-2.3.1_0057058b45691808a5b79f75fc0f9f85c38899a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6f71e57af51effa72dcf9d3299e97dd8db4b5b2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_dca29df065c2030794dd271276efc2e3f12cc5b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/SRPAAS_Sdk/srpaas_sdk/unspecified/jars/libs/srpaas_common_v0.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="523cc84abae35507de83ec1f996ed93ee6c39624">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/srpaas_common_v0.1.0_e64eb9431becd3407a4176b19c8633f58a8a63a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/libyuv-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b13306ef72a3e9fc2ee219462e787089747023e7">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-libyuv-release_cab8a4787c650c370bd0683057b006cac3b8a1b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_47b497887035ab195257137448dbee3d9e12badd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_cc6b017c69342d92103e89ecf4c1724cd5a7dd73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/srpaas_capture-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5c1a26a3daa6ff3310ea2c57e3a2826824266405">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-srpaas_capture-release_c42b659660365e9a2195ecdae8f83fd22509a638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/SRPAAS_Sdk/srpaas_sdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="57a15dea89fd11d2cdd7246725f265c3f2a6b3da">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/SRPAAS_Sdk-srpaas_sdk-unspecified_11f47536c13fc5ac4f61dbbffce3df782b4dd5c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_b6fd404905c8a9652fc799e6cdaef49e55af85e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/libs/srpaas_render_v0.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7d15f286d0513251b992b474ac3f5ec563a51518">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/srpaas_render_v0.1.0_f6d1c9a4d752bd57efd8db16d6a42e4f3b93748f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_18a35b129a532426d04d1605b43270583a0b2266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_354b49c31ac36bd10670d9faed446856ead5f568.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6b2665446c47d935ffe058661749bd2daac5f31a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_fdedea53366dbb31a0c8a6659eaa1503be4d54b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_815557835f89333c420e3ba619fd3355c3674a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_75a68fef4a9a41d0bb55d74aca1687f3dabcf189.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_124843049418f49a50bd28757db57ea0a0f57911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_e0bd5186db48f9b9c915b12d1316ebb03d949769.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2104221ff8a697c9cf20a1992f464424eadaa427.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_eecdcbc93f79b7e91fef5334d1b9e0985a2fb94c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_d1f48dda8e9f0e98612ac7b99de7455006cc016b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/okio-1.11.0_1b682737ca1bd8b4cdb923a6e23c874711ff5e26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/SRPAAS_Sdk/srpaas_sdk/unspecified/jars/libs/srpaas_base_v0.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a695b726c50123de8be4b7c11c1c9183ffc7f862">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/srpaas_base_v0.1.0_c9f51dcc18855443d05504ac135d550617cd0024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/test/AndroidStudioProjects/github/SRPAAS_Sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_c99c4895343c2edb4701abbd500be0b86039c9af.jar" />
+    </item>
+
+</items>

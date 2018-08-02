@@ -1,0 +1,93 @@
+apply plugin: 'com.android.library'
+
+def SDK_BASENAME = "srpaas_sdk";
+def SDK_VERSION = "0.1.1";
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionCode 1
+        versionName SDK_VERSION
+
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    //编译so文件 src/main  ndk-build
+//    externalNativeBuild {
+//        ndkBuild {
+//            path file("src\\main\\jni\\Android.mk")
+//        }
+//    }
+//    sourceSets {
+//        main.jniLibs.srcDirs = ['libs']
+//    }
+    sourceSets {
+        main {
+            jni.srcDirs = []
+
+        }
+    }
+}
+
+
+
+def sdkDestinationPath = "/";
+def zipFile = file('build/intermediates/bundles/release/classes.jar')
+def aarPath = 'build/outputs/aar/';
+def JAR_NAME = SDK_BASENAME + "_v";
+
+task deleteBuild(type: Delete) {
+    delete sdkDestinationPath + JAR_NAME + SDK_VERSION + ".jar"
+    delete sdkDestinationPath + JAR_NAME + SDK_VERSION + ".aar"
+}
+
+task makeJar(type: Jar) {
+    from zipTree(zipFile)
+    from fileTree(dir: 'src/main', includes: ['assets/**'])
+    baseName = JAR_NAME + SDK_VERSION
+    destinationDir = file(sdkDestinationPath)
+    exclude "org/**/BuildConfig.class"
+    exclude "org/**/BuildConfig\$*.class"
+    exclude "**/R.class"
+    exclude "**/R\$*.class"
+    //只导入资源路径集下的部分资源
+//    include "lbs/**/*.class"
+    include "org/**/*.class"
+}
+task makeAar(type: Copy) {
+    from(aarPath)
+    into(sdkDestinationPath)
+    include('srpaas_sdk-release.aar')
+    rename('srpaas_sdk-release.aar', JAR_NAME + SDK_VERSION + '.aar')
+}
+
+makeJar.dependsOn(deleteBuild, build)
+makeAar.dependsOn(deleteBuild, build)
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/srpaas_common_v0.1.0.jar')
+    compile files('libs/srpaas_base_v0.1.0.jar')
+    compile fileTree(include: 'native-libs.jar', dir: 'build/native-libs')
+}
